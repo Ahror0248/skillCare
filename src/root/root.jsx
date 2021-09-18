@@ -6,6 +6,7 @@ import { JoinWithUs } from '../Components/JoinWithUs'
 export const Root = () => {
   return (
     <>
+      <Index />
       <JoinWithUs />
       <Footer />
       <SubFooter />
