@@ -16,3 +16,24 @@
 .link{
   font-family: 'Nunito', sans-serif;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(34, 161, 150);
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: rgb(57, 134, 93);
+} */

@@ -16,6 +16,7 @@ export const Container = styled.div`
   /* height: 100vh; */
   padding-bottom: 5px;
   box-sizing: border-box;
+  padding-top: 60px;
 `;
 
 export const Title = styled.div`
@@ -66,8 +67,12 @@ export const Card = styled.div`
   width: 364px;
   height: 496px;
   background: #ffffff;
-  box-shadow: 0px 8px 24px rgba(31, 31, 51, 0.06);
   border-radius: 5px;
+  transition: linear .3s;
+  :hover{
+    box-shadow: 0px 8px 24px rgba(31, 31, 51, 0.06);
+    transform:scale(1.03)
+  }
   /* cursor: pointer; */
 `;
 export const Photo = styled.img`

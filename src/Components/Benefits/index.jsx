@@ -31,7 +31,6 @@ import {
 } from "./style.jsx";
 
 export const Benefits = () => {
-
   // const handleDragStart = (e) => e.preventDefault();
 
   const items = [
@@ -236,7 +235,7 @@ export const Benefits = () => {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/Pp5WeyplUbM"
+              src="https://www.youtube.com/embed/iGkl34KTRaU"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -249,7 +248,6 @@ export const Benefits = () => {
         <BottomTopText center>
           What our student say <br /> <span>About Us</span>
         </BottomTopText>
-        
       </BottomContainer>
       <AliceCarousel mouseTracking items={items} />
     </Container>

@@ -25,22 +25,24 @@ export const Ul = styled.ul`
 export const Li = styled.li`
   font-size: 20px;
   line-height: 27px;
-  color: #666571;
+  color: #797880;
   font-weight: 500;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
   :hover {
-    font-weight: 500;
+    border-bottom: 2px solid #26242e;
     color: #26242e;
-    transform: scale3d(1.1, 1.1, 1.1);
-    font-family: "Open Sans", sans-serif;
   }
 `;
 
 export const NavButton = styled.button`
-  width: ${({headerbtn})=> headerbtn? '207px':'156px'} ;
+  width: ${({ headerbtn }) => (headerbtn ? "207px" : "156px")};
   height: 57px;
-  font-family: ${({headerbtn})=>headerbtn? 'Montserrat Alternates, sans-serif;' : '"Montserrat", sans-serif'};
+  font-family: ${({ headerbtn }) =>
+    headerbtn
+      ? "Montserrat Alternates, sans-serif;"
+      : '"Montserrat", sans-serif'};
   background: #6347eb;
   border-radius: 12px;
   outline: none;

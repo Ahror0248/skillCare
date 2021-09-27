@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 export const Content = styled.div`
   width: 487px;
   height: 188px;
-  margin-right: 100px;
+  margin-right: 300px;
 `
 export const Title = styled.div`
   font-family: Montserrat;
