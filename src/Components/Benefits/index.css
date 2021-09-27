@@ -1,0 +1,50 @@
+.buttons:active {
+  transform: scale(0.8);
+  filter: blur(1px);
+}
+.buttons {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+.next {
+  margin-left: 67px;
+}
+.alice-carousel__play-btn-item.__pause {
+  width: 50px;
+}
+.alice-carousel__play-btn {
+  width: 50px;
+}
+.alice-carousel__next-btn-item {
+  font-size: 40px;
+  border-radius: 50%;
+  width: 40px;
+  padding-left: 33px;
+  color: rgba(102, 82, 218, 0.68);
+  border: 2px solid rgba(102, 82, 218, 0.68);
+}
+.alice-carousel__prev-btn-item {
+  font-size: 40px;
+  color: rgba(102, 82, 218, 0.68);
+  border-radius: 50%;
+  width: 40px;
+  padding-left: 33px;
+  border: 2px solid rgba(102, 82, 218, 0.68);
+}
+.alice-carousel__prev-btn [data-area]::after {
+  height: 25px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alice-carousel__next-btn [data-area]::after {
+  height: 25px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alice-carousel__dots{
+    display: none;
+}
