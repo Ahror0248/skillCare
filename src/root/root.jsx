@@ -1,4 +1,5 @@
 import React from 'react'
+import { Benefits } from '../Components/Benefits'
 import PopularCourses from '../Components/popularCourses'
 import { Header } from "../Components/header";
 import { Navbar } from "../Components/navbar";
@@ -14,6 +15,7 @@ export const Root = () => {
             <Header />
             <Index />
             <PopularCourses />
+            <Benefits/>
             <JoinWithUs />
             <Footer />
             <SubFooter />
