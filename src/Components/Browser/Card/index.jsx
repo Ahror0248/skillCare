@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { CardImg, CardTitle, CardWrapper, Title } from './style'
+import { CardImg, CardTitle, CardWrapper } from './style'
 export default class index extends Component {
     render() {
         return (

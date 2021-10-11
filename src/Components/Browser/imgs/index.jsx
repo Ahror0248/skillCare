@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Con, Rasm, Text1, Titlee } from './style'
+import { Con, Rasm, Titlee } from './style'
 
 export default class index extends Component {
     render() {

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import './main.css'
 import { Container, Title, Type, TypeWrapper, Card, Photo, CardWrapper, MentorWrapper, MentorImg, Department, DataWrapper, CourseName, Body, BestSeller, TimerWrapper, LastData, Price, Stars, ViewCourses } from "./style";
 import {
